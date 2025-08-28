@@ -105,7 +105,12 @@ export default function QuizApp() {
   const preguntaActual = preguntasFiltradas[slideFiltrado];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-purple-800 flex items-center justify-center p-5">
+    <div className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-purple-800 flex flex-col items-center justify-center p-5">
+      {/* Título principal */}
+      <h1 style={{color: '#fff', fontWeight: 'bold', fontSize: '2.2rem', marginBottom: '2rem', textAlign: 'center', textShadow: '0 2px 12px #222'}}>
+        Preguntas y respuestas del dominio 1, Libro CISA
+      </h1>
+
       {/* Buscador */}
       <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-full max-w-2xl z-10">
         <input
