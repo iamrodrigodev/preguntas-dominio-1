@@ -1,16 +1,27 @@
 /* Buscador oscuro */
 .buscador-input {
   width: 100%;
-  padding: 1.5rem 2rem;
+  max-width: 600px;
+  min-width: 180px;
+  padding: 1.2rem 1.5rem;
   border-radius: 2rem;
   border: 2px solid #fff;
   background: #222;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   box-shadow: 0 2px 12px rgba(0,0,0,0.18);
   outline: none;
   margin-bottom: 1.5rem;
   transition: border-color 0.2s;
+  box-sizing: border-box;
+@media (max-width: 600px) {
+  .buscador-input {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: 1.2rem;
+    max-width: 98vw;
+  }
+}
 }
 .buscador-input:focus {
   border-color: #fff;
