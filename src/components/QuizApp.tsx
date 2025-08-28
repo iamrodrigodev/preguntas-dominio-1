@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../QuizApp.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Pregunta {
@@ -24,7 +25,6 @@ export default function QuizApp() {
   useEffect(() => {
     setSlideFiltrado(0);
   }, [busqueda]);
-  const [slideActual, setSlideActual] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -49,14 +49,14 @@ export default function QuizApp() {
   }, []);
 
   const cambiarSlide = React.useCallback((direccion: number) => {
-    setSlideActual((prev) => {
+    setSlideFiltrado((prev) => {
       const nuevoIndice = prev + direccion;
-      if (nuevoIndice >= 0 && nuevoIndice < preguntas.length) {
+      if (nuevoIndice >= 0 && nuevoIndice < preguntasFiltradas.length) {
         return nuevoIndice;
       }
       return prev;
     });
-  }, [preguntas.length]);
+  }, [preguntasFiltradas.length]);
 
   // Navegación con teclado
   useEffect(() => {
@@ -70,7 +70,7 @@ export default function QuizApp() {
 
     document.addEventListener('keydown', manejarTeclado);
     return () => document.removeEventListener('keydown', manejarTeclado);
-  }, [slideActual, preguntas.length, cambiarSlide]);
+  }, [preguntas.length, cambiarSlide]);
 
   if (loading) {
     return (
@@ -113,46 +113,43 @@ export default function QuizApp() {
           value={busqueda}
           onChange={e => setBusqueda(e.target.value)}
           placeholder="Buscar por pregunta, justificación o código..."
-          className="w-full px-6 py-4 rounded-full border-2 border-purple-400 focus:outline-none focus:border-blue-600 text-lg shadow-lg"
+          className="buscador-input"
         />
       </div>
 
-      {/* Contenedor principal */}
-      <div className="max-w-4xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden">
-        {/* Slide */}
-        <div className="p-12 min-h-[600px] relative">
-          {/* Header del slide */}
-          <div className="text-center mb-10">
-            <div className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-5 py-2 rounded-full text-lg font-bold mb-5">
-              Diapositiva {slideFiltrado + 1} de {preguntasFiltradas.length}
-            </div>
-            <div className="text-4xl font-bold text-gray-800 mb-8">
-              {preguntaActual.Codigo}
-            </div>
-          </div>
+      {/* Card principal */}
+      <div className="card-pregunta">
+        {/* Header del card */}
+        <div className="card-header">
+          <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-1 rounded-full text-sm font-bold shadow mb-2">
+            Diapositiva {slideFiltrado + 1} de {preguntasFiltradas.length}
+          </span>
+          <span className="card-codigo">
+            {preguntaActual.Codigo}
+          </span>
+        </div>
 
-          {/* Pregunta */}
-          <div className="mb-8 p-6 bg-gray-50 rounded-xl border-l-4 border-blue-500">
-            <div className="text-lg font-bold text-blue-600 mb-3">Pregunta:</div>
-            <div className="text-base leading-relaxed text-gray-800">
-              {preguntaActual.Pregunta}
-            </div>
+        {/* Pregunta */}
+        <div className="card-section pregunta">
+          <div className="card-label">Pregunta</div>
+          <div>
+            {preguntaActual.Pregunta}
           </div>
+        </div>
 
-          {/* Respuesta */}
-          <div className="mb-6 p-6 bg-gray-50 rounded-xl border-l-4 border-blue-500">
-            <div className="text-lg font-bold text-blue-600 mb-3">Respuesta:</div>
-            <div className="text-base text-gray-800 font-semibold text-2xl">
-              {preguntaActual.Respuesta}
-            </div>
+        {/* Respuesta */}
+        <div className="card-section respuesta">
+          <div className="card-label">Respuesta</div>
+          <div>
+            {preguntaActual.Respuesta}
           </div>
+        </div>
 
-          {/* Justificación */}
-          <div className="p-6 bg-green-50 rounded-xl border-l-4 border-green-500">
-            <div className="text-lg font-bold text-green-600 mb-3">Justificación:</div>
-            <div className="text-base leading-relaxed text-gray-800">
-              {preguntaActual.Justificacion}
-            </div>
+        {/* Justificación */}
+        <div className="card-section justificacion">
+          <div className="card-label">Justificación</div>
+          <div>
+            {preguntaActual.Justificacion}
           </div>
         </div>
       </div>

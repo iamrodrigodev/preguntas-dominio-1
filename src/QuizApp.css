@@ -1,0 +1,76 @@
+/* Buscador oscuro */
+.buscador-input {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  background: #222;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  outline: none;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s;
+}
+.buscador-input:focus {
+  border-color: #fff;
+}
+
+/* Estilos mejorados para las cards de preguntas */
+
+.card-pregunta {
+  background: #111;
+  border-radius: 1.5rem;
+  box-shadow: none;
+  border: 1px solid #222;
+  padding: 2.5rem 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  color: #fff;
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card-codigo {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #222;
+}
+.card-section {
+  border-radius: 1rem;
+  padding: 1.2rem 1rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25), -4px 0 12px -4px rgba(0,0,0,0.18), 4px 0 12px -4px rgba(0,0,0,0.18);
+  border-left: 8px solid #222;
+  border-right: 8px solid #222;
+  background: #111;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+.card-section.pregunta {
+  border-left-color: #222;
+}
+.card-section.respuesta {
+  border-left-color: #222;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-section.justificacion {
+  border-left-color: #222;
+}
+.card-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
