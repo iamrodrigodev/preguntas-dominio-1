@@ -1,0 +1,836 @@
+[
+	{
+        "Codigo": "A1-1",
+		"Pregunta": "El departamento de auditoría interna escribió algunos scripts que se usan para configurar sistemas. El departamento pidió compartir los scripts con TI para que puedan usarlos para establecer un proceso de monitoreo continuo en sistemas clave. ¿El compartir estos scripts con TI afecta la habilidad del departamento de auditoría interna para realizar auditorías independientes y objetivas en la función de TI?",
+		"Respuesta": "C",
+		"Justificacion": "Los auditores de SI pueden aún revisar todos los aspectos de los sistemas de TI. Pueden no ser capaces de revisar la efectividad de los scripts, pero aún pueden auditar los sistemas. Un auditor de un sistema de SI abarca más que solo los controles cubiertos en los scripts."
+	}
+   ,{
+		"Codigo": "A1-2",
+		"Pregunta": "¿Cuál de los siguientes es el MEJOR factor para determinar el alcance requerido de recolección de datos durante la fase de planificación de una auditoría de cumplimiento de SI?",
+		"Respuesta": "C",
+		"Justificacion": "El alcance al cual los datos serán recolectados durante una auditoría de SI está relacionado directamente al propósito, objetivo y alcance de la auditoría con un propósito estrecho y limitado, y el alcance es más probable que resulte en menos recolección de datos que una auditoría con un propósito y alcance más amplio."
+	}
+   ,{
+		"Codigo": "A1-3",
+		"Pregunta": "Un auditor de SI está desarrollando un plan de auditoría para un ambiente que incluye nuevos sistemas. La gerencia de la organización quiere que el auditor de SI se enfoque en sistemas implementados recientemente. ¿Cómo debería responder el auditor de SI?",
+		"Respuesta": "C",
+		"Justificacion": "Lo mejor es realizar una evaluación de riesgo y diseñar el plan de auditoría para cubrir las áreas de mayor riesgo. ISACA IS Audit and Assurance Standard 1202 establece que la función de auditoría y aseguramiento de SI debe usar un enfoque apropiado de evaluación de riesgo y metodología de apoyo para desarrollar el plan general de auditoría de SI y determinar las prioridades para la asignación efectiva de recursos de auditoría."
+	}
+   ,{
+		"Codigo": "A1-4",
+		"Pregunta": "Un auditor de SI está revisando controles de seguridad para un sistema web crítico antes de la implementación. Los resultados de las pruebas de penetración son inconclusos, y los resultados no serán finalizados antes de la implementación. ¿Cuál de las siguientes es la MEJOR opción para el auditor de SI?",
+		"Respuesta": "A",
+		"Justificacion": "Si el auditor de SI no puede obtener suficiente aseguramiento para un sistema crítico dentro del marco de tiempo acordado, esto debería ser destacado en el reporte de auditoría y las pruebas de verificación deberían ser programadas para una fecha posterior."
+	}
+   ,{
+		"Codigo": "A1-5",
+		"Pregunta": "¿Cuál de los siguientes controles buscaría un auditor de SI en un ambiente donde las funciones no pueden ser apropiadamente segregadas?",
+		"Respuesta": "D",
+		"Justificacion": "Los controles compensatorios son controles internos alternativos que están diseñados para reducir el riesgo de un control existente o debilidad potencial de control que puede surgir cuando las funciones no pueden ser apropiadamente segregadas."
+	}
+	,{
+		"Codigo": "A1-6",
+		"Pregunta": "¿Cuál de los siguientes es el beneficio clave de una autoevaluación de control?",
+	    "Respuesta": "A",
+				"Justificacion": "El objetivo de la autoevaluación de control (CSA) es hacer que la gerencia de negocio se vuelva más consciente de la importancia del control interno y su responsabilidad en términos de gobernanza corporativa."
+			}
+		   ,{
+				"Codigo": "A1-7",
+				"Pregunta": "¿Cuál es el requerimiento PRIMARIO que una herramienta de software de minería y auditoría de datos debería cumplir? La herramienta de software debería:",
+				"Respuesta": "B",
+				"Justificacion": "Aunque todos los requerimientos listados como opciones de respuesta son deseables en una herramienta de software evaluada para propósitos de minería y auditoría de datos, el requerimiento más crítico es que la herramienta funcione efectivamente en los sistemas de la organización siendo auditada."
+			}
+		   ,{
+				"Codigo": "A1-8",
+				"Pregunta": "Un empleado de TI de largo plazo con sólidos antecedentes técnicos y amplia experiencia gerencial ha aplicado para una posición vacante en el departamento de auditoría de SI. Determinar si contratar a este individuo para esta posición debería basarse PRIMARIAMENTE en la experiencia y:",
+				"Respuesta": "D",
+				"Justificacion": "La independencia debería ser evaluada continualmente por el auditor y la gerencia. Esta evaluación debería considerar factores como cambios en las relaciones personales, intereses financieros, y asignaciones de trabajo y responsabilidades previas."
+			}
+		   ,{
+				"Codigo": "A1-9",
+				"Pregunta": "Para un negocio minorista con un gran volumen de transacciones, ¿cuál de las siguientes técnicas de auditoría es la MÁS apropiada para abordar el riesgo emergente?",
+				"Respuesta": "D",
+				"Justificacion": "La implementación de auditoría continua permite una alimentación en tiempo real de información a la gerencia para que la gerencia pueda implementar acciones correctivas más rápidamente."
+			}
+		   ,{
+				"Codigo": "A1-10",
+				"Pregunta": "Un auditor de SI está revisando el acceso a una aplicación para determinar si las cuentas añadidas recientemente fueron apropiadamente autorizadas. Este es un ejemplo de:",
+				"Respuesta": "C",
+				"Justificacion": "Las pruebas de cumplimiento determinan si los controles están siendo aplicados en cumplimiento con la política. Esto incluye pruebas para determinar si las nuevas cuentas fueron apropiadamente autorizadas."
+			}
+		   ,{
+				"Codigo": "A1-11",
+				"Pregunta": "¿Las decisiones y acciones de un auditor de SI tienen MÁS probabilidades de afectar cuál de los siguientes tipos de riesgo?",
+				"Respuesta": "B",
+				"Justificacion": "El riesgo de detección está directamente afectado por la selección del auditor de SI de procedimientos de auditoría y técnicas. El riesgo de detección es el riesgo de que la revisión de auditoría no detecte o note un problema material."
+			}
+		   ,{
+				"Codigo": "A1-12",
+				"Pregunta": "¿Cuál de los siguientes es el paso MÁS crítico al planificar una auditoría de SI?",
+				"Respuesta": "D",
+				"Justificacion": "De todos los pasos listados, realizar una evaluación de riesgo es lo más crítico. La evaluación de riesgo es requerida por ISACA IS Audit and Assurance Standard 1202.2."
+			}
+			,{
+				"Codigo": "A1-13",
+				"Pregunta": "Un auditor de SI está revisando una aplicación de software que está construida sobre los principios de arquitectura orientada a servicios. ¿Cuál es el paso INICIAL?",
+				"Respuesta": "A",
+				"Justificacion": "Una arquitectura orientada a servicios se basa en los principios de un ambiente distribuido en el cual los servicios encapsulan la lógica de negocio. Es esencial para el auditor de SI comprender el mapeo de los procesos de negocio a los servicios."
+			}
+			,{
+				"Codigo": "A1-14",
+				"Pregunta": "Un auditor de SI está realizando una revisión del uso de software y licenciamiento y descubre que numerosas PCs contienen software no autorizado. ¿Cuál de las siguientes acciones debería tomar el auditor de SI?",
+				"Respuesta": "C",
+				"Justificacion": "El uso de software no autorizado o ilegal debería ser prohibido por una organización. Un auditor de SI debe convencer al usuario y gerencia del riesgo y la necesidad de eliminar el riesgo."
+			}
+			,{
+				"Codigo": "A1-15",
+    			"Pregunta": "Un charter de auditoría debería:",
+				"Respuesta": "D",
+				"Justificacion": "Un charter de auditoría debería establecer los objetivos de la gerencia y la delegación de autoridad a los auditores de SI."
+			}
+			,{
+				"Codigo": "A1-16",
+				"Pregunta": "Un auditor de SI encuentra un pequeño número de solicitudes de acceso de usuario que no fueron autorizadas por gerentes a través de los pasos predefinidos normales de flujo de trabajo y reglas de escalación. El auditor de SI debería:",
+				"Respuesta": "A",
+				"Justificacion": "El auditor de SI necesita realizar pruebas sustantivas y análisis adicional para determinar por qué los procesos de aprobación y flujo de trabajo no están funcionando como se pretendía."
+			}
+			,{
+				"Codigo": "A1-17",
+				"Pregunta": "¿Cuál de los siguientes métodos de muestreo es MÁS útil al probar el cumplimiento?",
+				"Respuesta": "A",
+				"Justificacion": "El muestreo por atributos es el método primario de muestreo usado para pruebas de cumplimiento. El muestreo por atributos es un método estadístico usado para estimar la tasa de ocurrencia de una cualidad específica (atributo) en una población."
+			}
+			,{
+				"Codigo": "A1-18",
+				"Pregunta": "Al probar solicitudes de cambio de programa para un sistema remoto, un auditor de SI encuentra que el número de cambios disponible para revisión no proporciona un nivel razonable de aseguramiento. ¿Cuál es la acción MÁS apropiada para el auditor de SI tomar?",
+				"Respuesta": "A",
+				"Justificacion": "Si no se puede cumplir un objetivo de tamaño de muestra con los datos dados, el auditor de SI no puede proporcionar aseguramiento sobre el objetivo de prueba."
+				   }
+			   ,{
+				   "Codigo": "A1-19",
+				   "Pregunta": "¿Cuál de las siguientes situaciones podría afectar la independencia de un auditor de SI? El auditor de SI:",
+				   "Respuesta": "A",
+				   "Justificacion": "La independencia puede ser afectada si un auditor de SI está, o ha estado, activamente involucrado en el desarrollo, adquisición o implementación del sistema de aplicación."
+			    }
+			   ,{
+				   "Codigo": "A1-20",
+				   "Pregunta": "¿La ventaja PRIMARIA de un enfoque de auditoría continua es que:",
+				   "Respuesta": "B",
+				   "Justificacion": "La auditoría continua permite respuesta de auditoría y seguimiento a problemas de auditoría de manera oportuna porque los hallazgos de auditoría se recopilan en tiempo casi real."
+			    }
+			   ,{
+				   "Codigo": "A1-21",
+				   "Pregunta": "¿Cuál de los siguientes afectaría la independencia de un equipo de aseguramiento de calidad?",
+				   "Respuesta": "C",
+				   "Justificacion": "La corrección de código no debería ser una responsabilidad del equipo de aseguramiento de calidad, porque no aseguraría la segregación de funciones y afectaría la independencia del equipo."
+			    }
+			   ,{
+				   "Codigo": "A1-22",
+				   "Pregunta": "Al planificar una auditoría de SI, el paso MÁS crítico es la identificación de:",
+				   "Respuesta": "A",
+				   "Justificacion": "Al diseñar un plan de auditoría basado en riesgo, es importante identificar las áreas de mayor riesgo para determinar las áreas a ser auditadas."
+			    }
+			   ,{
+				   "Codigo": "A1-23",
+				   "Pregunta": "¿La práctica de auditoría MÁS efectiva para determinar si la efectividad operacional de los controles se aplica apropiadamente al procesamiento de transacciones es:",
+				   "Respuesta": "B",
+				   "Justificacion": "Entre otros métodos, las pruebas de controles son los procedimientos más efectivos para evaluar si los controles apoyan con precisión la efectividad operacional."
+			    }
+			   ,{
+				   "Codigo": "A1-24",
+				   "Pregunta": "¿El alcance al cual se recopilarán datos durante una auditoría de SI debería determinarse basado en:",
+				   "Respuesta": "D",
+				   "Justificacion": "El alcance al cual se recopilarán datos durante una auditoría de SI debería estar relacionado directamente al alcance y propósito de la auditoría."
+			    }
+			   ,{
+				   "Codigo": "A1-25",
+				   "Pregunta": "Al planificar una auditoría de SI, se debería hacer una evaluación de riesgo para proporcionar:",
+				   "Respuesta": "A",
+				   "Justificacion": "ISACA IS Audit and Assurance Guideline 2202 (Evaluación de Riesgo y Planificación de Auditoría) establece que el enfoque aplicado de evaluación de riesgo debería ayudar con la priorización y programación del proceso de auditoría de SI y trabajo de aseguramiento."
+			    }
+			   ,{
+				   "Codigo": "A1-26",
+				   "Pregunta": "¿La acción MÁS apropiada para que un auditor de SI tome cuando se descubren cuentas de usuario compartidas es:",
+				   "Respuesta": "C",
+				   "Justificacion": "El rol de un auditor de SI es detectar y documentar hallazgos y deficiencias de control. El uso de IDs compartidos no es recomendado porque no permite la responsabilidad de las transacciones."
+			    }
+			   ,{
+					"Codigo": "A1-27",
+					"Pregunta": "Un auditor de SI está realizando una prueba de cumplimiento para determinar si los controles apoyan las políticas y procedimientos de gerencia. La prueba ayudará al auditor de SI a determinar:",
+					"Respuesta": "B",
+					"Justificacion": "Es importante que los controles operen eficientemente, pero en este caso la intención es asegurar que los controles son operacionalmente correctos."
+				}
+			   ,{
+					"Codigo": "A1-28",
+					"Pregunta": "El vicepresidente de recursos humanos ha solicitado una auditoría de SI para identificar sobrepagos de nómina para el año anterior. ¿Cuál sería la MEJOR técnica de auditoría a usar en esta situación?",
+					"Respuesta": "B",
+					"Justificacion": "Las características del software de auditoría generalizado incluyen computaciones matemáticas, estratificación, análisis estadístico, verificación de secuencia y re-computaciones."
+				}
+			   ,{
+					"Codigo": "A1-29",
+					"Pregunta": "Durante una auditoría de seguridad de procesos de TI, un auditor de SI encuentra que no existen procedimientos de seguridad documentados. El auditor de SI debería:",
+					"Respuesta": "D",
+					"Justificacion": "El enfoque más práctico es identificar y evaluar las prácticas de seguridad existentes siendo seguidas por la organización y someter hallazgos y recomendaciones para documentar los controles actuales o hacer cumplir los procedimientos documentados."
+				}
+			   ,{
+					"Codigo": "A1-30",
+					"Pregunta": "Durante un análisis de riesgo, un auditor de SI identifica amenazas e impactos potenciales. A continuación, el auditor de SI debería:",
+					"Respuesta": "D",
+					"Justificacion": "Es importante para un auditor de SI identificar y evaluar la existencia y efectividad de los controles existentes y planeados para que el nivel de riesgo pueda ser calculado y las amenazas potenciales e impactos puedan ser identificados."
+				}
+			   ,{
+					"Codigo": "A1-31",
+					"Pregunta": "¿Cuál de los siguientes sería normalmente la evidencia MÁS confiable para un auditor de SI?",
+					"Respuesta": "A",
+					"Justificacion": "La evidencia obtenida de terceros independientes es casi siempre considerada como más confiable que la evidencia proporcionada por la gerencia."
+				}
+			   ,{
+					"Codigo": "A1-32",
+					"Pregunta": "Al evaluar el efecto colectivo de controles preventivos, detectivos y correctivos dentro de un proceso, un auditor de SI debería estar consciente de cuál de los siguientes:",
+					"Respuesta": "A",
+					"Justificacion": "Un auditor de SI debería enfocarse en cuándo se ejercen los controles mientras los datos fluyen a través de un sistema informático."
+				}
+				   ,{
+						"Codigo": "A1-33",
+						"Pregunta": "¿Cuál técnica de auditoría proporciona la MEJOR evidencia de la segregación de funciones en un departamento de TI?",
+						"Respuesta": "C",
+						"Justificacion": "Basado en la observación e entrevistas, el auditor de SI puede evaluar la segregación de funciones. Al observar al personal de TI realizar sus tareas, un auditor de SI puede identificar si están realizando operaciones incompatibles. Al entrevistar al personal de TI, el auditor puede obtener una visión general de las tareas que realizan."
+					}
+				   ,{
+						"Codigo": "A1-34",
+						"Pregunta": "Después de revisar el proceso de planificación de recuperación de desastres de una organización, un auditor de SI solicita una reunión con la gerencia de la organización para discutir los hallazgos. ¿Cuál de los siguientes MEJOR describe la meta principal de esta reunión?",
+						"Respuesta": "B",
+						"Justificacion": "El objetivo de la reunión es confirmar la exactitud factual de los hallazgos de auditoría y presenta una oportunidad para que la gerencia responda o presente recomendaciones para acciones correctivas."
+					}
+				   ,{
+						"Codigo": "A1-35",
+						"Pregunta": "Un auditor de SI debería asegurar que la revisión de procedimientos de conciliación de transferencias de fondos electrónicos en línea incluya:",
+						"Respuesta": "D",
+						"Justificacion": "El rastreo es la reconciliación que debe involucrar seguir la copia transaccional generada por el cliente desde el origen hasta el destino final. En las transacciones de transferencia de fondos electrónicos, la dirección del rastreo puede comenzar desde la copia transaccional generada por el cliente del recibo, proceder a verificar el sistema de archivos maestros y terminar con verificar los archivos maestros para transacciones diarias."
+					}
+				   ,{
+						"Codigo": "A1-36",
+						"Pregunta": "Un auditor de SI está realizando una revisión de configuración del sistema. ¿Cuál de los siguientes es la MEJOR evidencia en apoyo de la configuración actual del sistema?",
+						"Respuesta": "B",
+						"Justificacion": "La evidencia que es obtenida directamente de la fuente por un auditor de SI es más confiable que la información que es proporcionada por un administrador del sistema o propietario de negocio, porque el auditor de SI no tiene un interés particular en el resultado de la auditoría."
+					}
+				   ,{
+						"Codigo": "A1-37",
+						"Pregunta": "El propósito de un checksum en un campo de cantidad en una comunicación de intercambio de datos electrónicos de transacciones financieras es asegurar:",
+						"Respuesta": "A",
+						"Justificacion": "Un checksum que se calcula en un campo de cantidad e incluido en la comunicación de intercambio de datos electrónicos puede ser usado para identificar modificaciones no autorizadas."
+					}
+				   ,{
+						"Codigo": "A1-38",
+						"Pregunta": "¿Cuál de las siguientes formas de evidencia consideraría un auditor de SI como la MÁS confiable?",
+						"Respuesta": "B",
+						"Justificacion": "Una prueba independiente realizada por un auditor de SI siempre debería ser considerada una fuente más confiable de evidencia que un auditor debería consistir de una combinación de inspección, observación e investigación por un auditor de SI para determinar el riesgo. Esto proporciona una metodología estándar y aseguramiento razonable de que los controles y resultados de pruebas son precisos."
+					}
+				   ,{
+						"Codigo": "A1-39",
+						"Pregunta": "Un auditor de SI que ha descubierto transacciones no autorizadas durante una revisión de transacciones de intercambio de datos electrónicos (EDI) probablemente recomendará mejorar:",
+						"Respuesta": "C",
+						"Justificacion": "Las técnicas de autenticación para enviar y recibir mensajes juegan un papel clave en minimizar la exposición a transacciones no autorizadas."
+					}
+				   ,{
+						"Codigo": "A1-40",
+						"Pregunta": "Un auditor de SI está validando un control que involucra una revisión de reportes de excepción generados por el sistema. ¿Cuál de los siguientes es la MEJOR evidencia de la efectividad del control?",
+						"Respuesta": "C",
+						"Justificacion": "Una muestra de un reporte de excepción generado por el sistema junto con evidencia de que el revisor siguió las excepciones representa la mejor evidencia posible de la operación efectiva del control, porque hay evidencia documental de que el revisor revisó el reporte de excepción y tomó acciones basadas en el reporte de excepción."
+					}
+				   ,{
+						"Codigo": "A1-41",
+						"Pregunta": "Una empresa ha actualizado recientemente su sistema de compras para incorporar transmisiones de intercambio de datos electrónicos (EDI). ¿Cuál de los siguientes controles debería implementarse en la interfaz EDI para proporcionar un mapeo eficiente de datos?",
+						"Respuesta": "D",
+						"Justificacion": "Al actuar como un puente de datos de transacción, los reconocimientos funcionales son uno de los principales controles usados en el mapeo de datos."
+					}
+				   ,{
+						"Codigo": "A1-42",
+						"Pregunta": "¿Cuál de los siguientes métodos de muestreo sería el MÁS efectivo para determinar si las órdenes de compra emitidas a proveedores han sido autorizadas según la matriz de autorización?",
+						"Respuesta": "C",
+						"Justificacion": "El muestreo por atributos es el método usado para pruebas de cumplimiento. En este escenario, la operación de un control está siendo probada, y el atributo de si cada orden de compra fue autorizada correctamente sería usado para determinar el cumplimiento con el control."
+					}
+				   ,{
+						"Codigo": "A1-43",
+						"Pregunta": "¿El MEJOR método para confirmar la exactitud de un cálculo de impuestos del sistema es:",
+						"Respuesta": "C",
+						"Justificacion": "Preparar transacciones simuladas para procesamiento y comparar los resultados con resultados predeterminados es el mejor método para confirmar la exactitud de un cálculo de impuestos."
+					}
+					   ,{
+							"Codigo": "A1-44",
+							"Pregunta": "Un auditor de SI que realiza una revisión de controles de aplicación evaluaría:",
+							"Respuesta": "B",
+							"Justificacion": "Una revisión de controles de aplicación involucra la evaluación de los controles automatizados de la aplicación y una evaluación de cualquier exposición resultante de la efectividad de los controles."
+						}
+					   ,{
+							"Codigo": "A1-45",
+							"Pregunta": "Se ha tomado acción correctiva por un auditado inmediatamente después de la identificación de un hallazgo reportable. El auditor de SI debería:",
+							"Respuesta": "A",
+							"Justificacion": "Incluir el hallazgo en el informe final es una práctica de auditoría generalmente aceptada. Si se toma acción después de que comenzó el trabajo de campo, el informe de auditoría debe describir la situación, el hallazgo y describir la acción correctiva tomada."
+						}
+					   ,{
+							"Codigo": "A1-46",
+							"Pregunta": "El equipo interno de auditoría de SI está auditando controles sobre devoluciones de ventas y está preocupado por fraude. ¿Cuál de los siguientes métodos de muestreo MEJOR asistirá al auditor de SI?",
+							"Respuesta": "C",
+							"Justificacion": "El muestreo de descubrimiento se usa cuando un auditor de SI busca determinar si un tipo de evento ha ocurrido. Por lo tanto, se usa para evaluar el riesgo de fraude y para identificar si ha ocurrido una sola ocurrencia."
+						}
+					   ,{
+							"Codigo": "A1-47",
+							"Pregunta": "Al desarrollar una estrategia de auditoría basada en riesgo, un auditor de SI debe realizar una evaluación de riesgo para asegurar que:",
+							"Respuesta": "B",
+							"Justificacion": "Al desarrollar una estrategia de auditoría basada en riesgo, es crítico que el riesgo y las vulnerabilidades sean entendidas. Estas determinan las áreas a auditar y el alcance de la cobertura."
+						}
+					   ,{
+							"Codigo": "A1-48",
+							"Pregunta": "Durante una entrevista de salida, en casos donde hay desacuerdo respecto al impacto de un hallazgo, un auditor de SI debería:",
+							"Respuesta": "B",
+							"Justificacion": "Si el auditado no está de acuerdo con la importancia de un hallazgo, es importante para un auditor de SI elaborar y aclarar el riesgo y exposiciones porque el auditado puede no apreciar completamente la magnitud de la exposición."
+						}
+					   ,{
+							"Codigo": "A1-49",
+							"Pregunta": "Para asegurar que los recursos de auditoría entreguen el mejor valor a la organización, el PRIMER paso en un proyecto de auditoría es:",
+							"Respuesta": "C",
+							"Justificacion": "La evaluación adecuada del tiempo y los programas de auditoría, y el entrenamiento adecuado del personal de SI de auditoría mejora la productividad del personal de auditoría, asegurando que los recursos y esfuerzos se dediquen a auditar áreas enfocadas en mayor riesgo."
+						}
+					   ,{
+							"Codigo": "A1-50",
+							"Pregunta": "¿Cuál de las siguientes debería ser la PRIMERA acción de un auditor de SI durante una disputa con un gerente de departamento sobre hallazgos de auditoría?",
+							"Respuesta": "D",
+							"Justificacion": "Las conclusiones extraídas por un auditor de SI deben estar adecuadamente soportadas por evidencia, y cualquier contexto controvertido que sea señalado por un gerente de departamento debe ser tomado en consideración. Por lo tanto, el primer paso es revalidar la evidencia para el hallazgo."
+						}
+					   ,{
+							"Codigo": "A1-51",
+							"Pregunta": "Un auditor de SI debe usar muestreo estadístico, y no muestreo de juicio (no estadístico), cuando:",
+							"Respuesta": "A",
+							"Justificacion": "Dado un índice de error esperado y nivel de confianza, el muestreo estadístico es un método objetivo de muestreo, que ayuda a un auditor de SI determinar el tamaño de muestra y cuantificar la probabilidad de error."
+						}
+					   ,{
+							"Codigo": "A1-52",
+							"Pregunta": "¿Cuál es la MEJOR acción para que un auditor de SI tome cuando un proceso de monitoreo subcontratado para acceso remoto es inadecuado y la gerencia no está de acuerdo porque el sistema de detección de intrusos (IDS) y los controles de firewall están en su lugar?",
+							"Respuesta": "D",
+							"Justificacion": "Es una independencia del auditor que dicta que la información adicional proporcionada por el auditado sea tomada en consideración. Normalmente, un auditor de SI no retracta automáticamente un hallazgo."
+						}
+					   ,{
+							"Codigo": "A1-53",
+							"Pregunta": "Una organización usa un banco para procesar su nómina semanal. Las hojas de tiempo y formularios de ajuste de nómina se completan y entregan al banco, que prepara los cheques e informes para distribución. Para MEJOR asegurar la precisión de la nómina:",
+							"Respuesta": "A",
+							"Justificacion": "La mejor manera de confirmar la precisión de datos, cuando la entrada es proporcionada por la organización y la salida es generada por el banco, es verificar los datos de entrada con los resultados de los informes de nómina."
+						}
+					   ,{
+							"Codigo": "A1-54",
+							"Pregunta": "¿Cuál de los siguientes representa el MAYOR riesgo potencial en un ambiente de intercambio electrónico de datos (EDI)?",
+							"Respuesta": "A",
+							"Justificacion": "Debido a que la interacción entre partes es electrónica, no hay autenticación inherente ocurriendo; por lo tanto, la falta de autorizaciones de transacción es el mayor riesgo."
+						}
+					   ,{
+							"Codigo": "A1-55",
+							"Pregunta": "Durante la etapa de planificación de una auditoría de SI, el objetivo PRIMARIO de un auditor de SI es:",
+							"Respuesta": "A",
+							"Justificacion": "Los Estándares de Auditoría y Aseguramiento de ISACA requieren que un auditor de SI planee el trabajo de auditoría para abordar los objetivos de auditoría."
+						}
+					   ,{
+							"Codigo": "A1-56",
+							"Pregunta": "Al seleccionar procedimientos de auditoría, un auditor de SI debe usar juicio profesional para asegurar que:",
+							"Respuesta": "A",
+							"Justificacion": "Los procedimientos son procesos que un auditor de SI puede seguir en un compromiso de auditoría. Al determinar la idoneidad de un procedimiento específico, un auditor de SI debe usar juicio profesional que sea apropiado para las circunstancias específicas."
+						}
+					   ,{
+							"Codigo": "A1-57",
+							"Pregunta": "Una prueba substantiva para verificar que los registros de inventario de biblioteca de cintas son precisos es:",
+							"Respuesta": "C",
+							"Justificacion": "Una prueba substantiva incluye recopilar evidencia para evaluar la integridad, precisión y validez de transacciones individuales, datos u otra información. Realizar un conteo físico del inventario de cintas es una prueba substantiva."
+						}
+					   ,{
+							"Codigo": "A1-58",
+							"Pregunta": "Un control apropiado para asegurar la autenticidad de órdenes recibidas en una aplicación de sistema de intercambio electrónico de datos es:",
+							"Respuesta": "C",
+							"Justificacion": "Un sistema de intercambio electrónico de datos está sujeto no solo a las exposiciones de riesgo usuales de sistemas computarizados sino también a las que surgen del potencial de inefectividad de controles por parte del socio comercial y el proveedor de servicios de terceros, haciendo que la autenticación de usuarios y mensajes sea una preocupación de seguridad importante."
+						}
+					   ,{
+							"Codigo": "A1-59",
+							"Pregunta": "Un auditor de SI encuentra que las respuestas recibidas durante una entrevista con un empleado de nómina no respaldan las descripciones de trabajo y procedimientos documentados. Bajo estas circunstancias, el auditor de SI debería:",
+							"Respuesta": "B",
+							"Justificacion": "Si las respuestas proporcionadas a las preguntas de un auditor de SI no son confirmadas por procedimientos documentados o por descripción de trabajo, el auditor de SI debería expandir el alcance de prueba de controles existentes e incluir pruebas substantivas adicionales."
+						}
+					   ,{
+							"Codigo": "A1-60",
+							"Pregunta": "Un auditor externo de SI emite un informe de auditoría señalando la falta de características de protección de firewall en la puerta de enlace de red perimetral y recomendando un producto de proveedor específico para abordar esta vulnerabilidad. El auditor de SI ha fallado en ejercitar:",
+							"Respuesta": "A",
+							"Justificacion": "Cuando un auditor de SI recomienda un proveedor específico, la independencia profesional del auditor se ve comprometida."
+						}
+					   ,{
+							"Codigo": "A1-61",
+							"Pregunta": "La razón PRIMARIA por la que un auditor de SI realiza un recorrido funcional durante la fase preliminar de una asignación de auditoría es:",
+							"Respuesta": "A",
+							"Justificacion": "Entender el proceso de negocio es el primer paso que un auditor de SI necesita realizar."
+						}
+					   ,{
+							"Codigo": "A1-62",
+							"Pregunta": "En el proceso de evaluar controles de cambio de programa, un auditor de SI usa software de comparación de código fuente para:",
+							"Respuesta": "A",
+							"Justificacion": "Cuando un auditor de SI usa una comparación de código fuente para examinar cambios de programa fuente sin información del personal de SI, el auditor de SI tiene un objetivo, independiente y relativamente completo aseguramiento de cambios de programa."
+						}
+					   ,{
+							"Codigo": "A1-63",
+							"Pregunta": "El propósito PRIMARIO para reunirse con auditados antes de cerrar formalmente una revisión es:",
+							"Respuesta": "B",
+							"Justificacion": "El propósito primario para reunirse con auditados antes de cerrar formalmente una revisión es obtener acuerdo sobre los hallazgos y respuestas de la gerencia."
+						}
+					   ,{
+							"Codigo": "A1-64",
+							"Pregunta": "¿Cuál de las siguientes técnicas de auditoría MEJOR ayuda a un auditor de SI a determinar si ha habido cambios no autorizados en el programa desde la última actualización autorizada del programa?",
+							"Respuesta": "C",
+							"Justificacion": "La comparación automatizada de código es el proceso de comparar dos versiones del mismo programa para determinar si los dos corresponden. Es una técnica eficiente porque es un procedimiento automatizado."
+						}
+					   ,{
+							"Codigo": "A1-65",
+							"Pregunta": "Al preparar un informe de auditoría, el auditor de SI debe asegurar que los resultados estén respaldados por:",
+							"Respuesta": "D",
+							"Justificacion": "El Estándar de Auditoría y Aseguramiento de SI de ISACA sobre reportes requiere que el auditor de SI tenga evidencia de auditoría suficiente y apropiada para respaldar los resultados reportados."
+						}
+					   ,{
+							"Codigo": "A1-66",
+							"Pregunta": "Al evaluar prácticas de desarrollo de software en una organización, un auditor de SI nota que los informes de gestión de calidad (QA) no informan a la gestión del proyecto. La preocupación MÁS importante para un auditor de SI es:",
+							"Respuesta": "A",
+							"Justificacion": "Para ser efectiva, la función de aseguramiento de calidad (QA) debe ser independiente de la gestión del proyecto. Si es parte, la gestión del proyecto puede presionar a la función QA para aprobar un producto inadecuado."
+						}
+					   ,{
+							"Codigo": "A1-67",
+							"Pregunta": "La decisión final de incluir un hallazgo material en un informe de auditoría debe ser tomada por:",
+							"Respuesta": "C",
+							"Justificacion": "El auditor de SI debe tomar la decisión final sobre qué incluir o excluir del informe de auditoría."
+						}
+					   ,{
+							"Codigo": "A1-68",
+							"Pregunta": "Mientras revisa documentos de trabajo electrónicos sensibles, el auditor de SI notó que no estaban encriptados. Esto podría comprometer:",
+							"Respuesta": "D",
+							"Justificacion": "La encriptación proporciona confidencialidad para los documentos de trabajo electrónicos sensibles."
+						}
+					   ,{
+							"Codigo": "A1-69",
+							"Pregunta": "La razón MÁS importante para que un auditor de SI obtenga evidencia de auditoría suficiente y apropiada es:",
+							"Respuesta": "B",
+							"Justificacion": "El alcance de una auditoría de SI se define por sus objetivos. Esto involucra identificar debilidades de control relevantes al alcance de la auditoría. Obtener evidencia suficiente y apropiada asiste al auditor en no solo identificar debilidades de control sino también documentar y validar."
+						}
+					   ,{
+							"Codigo": "A1-70",
+							"Pregunta": "Después de la investigación inicial, un auditor de SI tiene razones para creer que puede estar presente fraude. El auditor de SI debería:",
+							"Respuesta": "A",
+							"Justificacion": "Las responsabilidades de un auditor de SI para detectar fraude incluyen evaluar indicadores de fraude y decidir si alguna acción adicional es necesaria o si debería recomendarse una investigación."
+						}
+					   ,{
+							"Codigo": "A1-71",
+							"Pregunta": "Un auditor de SI nota que los intentos fallidos de inicio de sesión a un sistema financiero central se registran automáticamente y los registros se conservan durante un año por la organización. Este registro es:",
+							"Respuesta": "C",
+							"Justificacion": "La generación de un registro de actividad no es un control por sí mismo. Es la revisión de tal registro lo que hace la actividad de control (es decir, la revisión equivale a control)."
+						}
+					   ,{
+							"Codigo": "A1-72",
+							"Pregunta": "La carta de auditoría de SI de una organización debe especificar:",
+							"Respuesta": "D",
+							"Justificacion": "Una carta de auditoría de SI debe describir la autoridad general, alcance y responsabilidades de la función de auditoría. Debe ser aprobada por el nivel más alto de gestión."
+						}
+					   ,{
+							"Codigo": "A1-73",
+							"Pregunta": "¿Cuál de los siguientes debe usar un auditor de SI para detectar registros de factura duplicados dentro de un archivo maestro de facturas?",
+							"Respuesta": "B",
+							"Justificacion": "Las técnicas de auditoría asistidas por computadora (CAATs) permiten al auditor de SI revisar todo el archivo de facturas para buscar registros que cumplan criterios de selección específicos."
+						}
+					   ,{
+							"Codigo": "A1-74",
+							"Pregunta": "Al desarrollar un programa de gestión de riesgos, ¿cuál es la PRIMERA actividad a realizar?",
+							"Respuesta": "C",
+							"Justificacion": "La identificación de los activos a proteger es el primer paso en el desarrollo de un programa de gestión de riesgos."
+						}
+					   ,{
+							"Codigo": "A1-75",
+							"Pregunta": "Al evaluar los controles de una aplicación de intercambio electrónico de datos (EDI), un auditor de SI debe estar PRIMARIAMENTE preocupado por el riesgo de:",
+							"Respuesta": "C",
+							"Justificacion": "Entre los riesgos asociados con el intercambio electrónico de datos (EDI) está la autorización de transacción inadecuada. Debido a que la interacción con las partes es electrónica, no hay autenticación inherente."
+						}
+					   ,{
+							"Codigo": "A1-76",
+							"Pregunta": "¿Cuál de los siguientes sería MÁS útil para que un auditor de SI acceda y analice datos digitales para recopilar evidencia de auditoría relevante de diversos ambientes de software?",
+							"Respuesta": "D",
+							"Justificacion": "Las CAATs son herramientas útiles para acceder a datos en un entorno electrónico de diversos ambientes de software, formatos de registro, etc. Las CAATs sirven como herramientas útiles para recopilar y evaluar evidencia de auditoría según objetivos de auditoría y pueden crear eficiencias para recopilar esta evidencia."
+						}
+					   ,{
+							"Codigo": "A1-77",
+							"Pregunta": "¿Cuál de los siguientes métodos de muestreo es el MÁS apropiado para probar controles automatizados de autorización de facturas para asegurar que no se hagan excepciones para usuarios específicos?",
+							"Respuesta": "C",
+							"Justificacion": "La estratificación es el proceso de dividir una población en subpoblaciones con características similares explícitamente definidas, de modo que cada unidad de muestreo pueda pertenecer solo a un estrato."
+						}
+					   ,{
+							"Codigo": "A1-78",
+							"Pregunta": "Un auditor de SI que estuvo involucrado en diseñar el plan de continuidad de negocio (BCP) de una organización ha sido asignado para auditar el plan. El auditor de SI debería:",
+							"Respuesta": "D",
+							"Justificacion": "Un posible conflicto de intereses, que probablemente afecte la independencia del auditor de SI, debe ser llevado a la atención de la gestión antes de comenzar la asignación."
+						}
+					   ,{
+							"Codigo": "A1-79",
+							"Pregunta": "El propósito PRIMARIO de una auditoría forense de TI es:",
+							"Respuesta": "B",
+							"Justificacion": "La recolección sistemática y análisis de evidencia después de una irregularidad del sistema describe mejor una auditoría forense. Los datos recolectados pueden entonces ser analizados y utilizados en procedimientos judiciales."
+						}
+					   ,{
+							"Codigo": "A1-80",
+							"Pregunta": "Un auditor de SI revisa un día de registros para un servidor gestionado remotamente y encuentra un caso donde falló el inicio de sesión, y los reinicios de respaldo no pueden confirmarse. ¿Qué debe hacer el auditor de SI?",
+							"Respuesta": "D",
+							"Justificacion": "Los Estándares de Auditoría y Aseguramiento de SI requieren que un auditor de SI recopile evidencia de auditoría suficiente y apropiada. El auditor de SI ha encontrado un problema potencial y ahora necesita determinar si este es un incidente aislado, o una falla sistemática de control que impacta otros servidores."
+						}
+						   ,{
+								"Codigo": "A1-81",
+								"Pregunta": "En una organización pequeña, las funciones de gerente de lanzamiento y programador de aplicaciones son realizadas por el mismo empleado. ¿Cuál es el MEJOR control compensatorio en este escenario?",
+								"Respuesta": "D",
+								"Justificacion": "Los controles compensatorios se usan para mitigar el riesgo cuando los controles apropiados no son factibles o prácticos. En una organización pequeña, puede no ser factible contratar nuevo personal, por lo que un control compensatorio puede ser necesario. Verificar que los cambios de programa implementados tengan aproximadamente el mismo efecto que la segregación completa de deberes."
+							}
+						   ,{
+								"Codigo": "A1-82",
+								"Pregunta": "¿Cuál de los siguientes es el PRIMER paso en una evaluación de riesgo de TI para una auditoría basada en riesgo?",
+								"Respuesta": "D",
+								"Justificacion": "La auditoría basada en riesgo debe basarse en el entendimiento del negocio, modelo operativo y ambiente. Este es el primer paso en una evaluación de riesgo de TI para una auditoría basada en riesgo."
+							}
+						   ,{
+								"Codigo": "A1-83",
+								"Pregunta": "Un auditor de SI descubre que dispositivos conectados a la red no están incluidos en un diagrama de red que había sido usado para desarrollar el alcance de la auditoría. El director de información explica que el diagrama está siendo actualizado y esperando aprobación final. El auditor de SI debería PRIMERO:",
+								"Respuesta": "B",
+								"Justificacion": "En un enfoque basado en riesgo para una auditoría de SI, el alcance se determina por el impacto que los dispositivos no incluidos en la red tendrán. Si los dispositivos no documentados no impactan el alcance de auditoría, entonces pueden ser excluidos del compromiso de auditoría actual."
+							}
+						   ,{
+								"Codigo": "A1-84",
+								"Pregunta": "Un auditor de SI está probando el acceso de empleados a un gran sistema financiero, y el auditor de SI seleccionó una muestra de la lista actual de empleados proporcionada por el auditado. ¿Cuál de las siguientes evidencias es la MÁS confiable para respaldar la prueba?",
+								"Respuesta": "C",
+								"Justificacion": "La lista de acceso generada por el sistema es la más confiable, porque es la más objetiva en evidencia para realizar autorización contra las muestras seleccionadas. La evidencia es objetiva porque fue generada por el sistema en lugar de por un individuo."
+							}
+						   ,{
+								"Codigo": "A1-85",
+								"Pregunta": "Durante una auditoría de cumplimiento de un banco pequeño, el auditor de SI nota que las funciones de TI y contabilidad están siendo realizadas por el mismo usuario del sistema financiero. ¿Cuál de las siguientes revisiones que son realizadas por el supervisor del usuario representa el MEJOR control compensatorio?",
+								"Respuesta": "D",
+								"Justificacion": "Los registros de computadora registran las actividades de individuos durante su acceso a un sistema de computadora o datos y registran tal actividad anormal, como la modificación o eliminación de datos financieros."
+							}
+						   ,{
+								"Codigo": "A1-86",
+								"Pregunta": "Un desarrollador de sistemas se transfiere al departamento de auditoría para servir como auditor de TI. Cuando los sistemas de producción deben ser revisados por este empleado, ¿cuál de los siguientes se convertirá en la preocupación MÁS significativa?",
+								"Respuesta": "A",
+								"Justificacion": "Debido a que el empleado había sido desarrollador, se recomienda que la cobertura de auditoría excluya los sistemas desarrollados por este empleado para evitar cualquier conflicto de intereses."
+							}
+						   ,{
+								"Codigo": "A1-87",
+								"Pregunta": "¿Cuál de los siguientes MEJOR describe el objetivo de un auditor de SI al discutir los hallazgos de auditoría con el auditado?",
+								"Respuesta": "C",
+								"Justificacion": "Antes de comunicar los resultados de una auditoría a la alta gerencia, el auditor de SI debe discutir los hallazgos con el auditado. El objetivo de esta discusión es confirmar la precisión de los hallazgos y proponer o recomendar un curso de acción correctiva."
+							}
+						   ,{
+								"Codigo": "A1-88",
+								"Pregunta": "¿Cuál de las siguientes responsabilidades comprometería MÁS probablemente la independencia de un auditor de SI al revisar el proceso de gestión de riesgos?",
+								"Respuesta": "A",
+								"Justificacion": "Participar en el diseño del marco de gestión de riesgos involucra diseñar controles, lo que compromete la independencia del auditor de SI para auditar el proceso de gestión de riesgos."
+							}
+							   ,{
+									"Codigo": "A1-89",
+									"Pregunta": "Sin un alcance de auditoría, la evaluación de riesgo apropiada no ha sido realizada y, por lo tanto, el auditor podría no conocer aquellos con el más alto riesgo para la organización.",
+									"Respuesta": "C",
+									"Justificacion": "Sin un alcance de auditoría, la evaluación de riesgo apropiada no ha sido realizada y, por lo tanto, el auditor podría no conocer aquellos con el más alto riesgo para la organización."
+								}
+							   ,{
+									"Codigo": "A1-90",
+									"Pregunta": "Las herramientas de detección de tendencias/varianzas implican servicios con números de facturas crecientes.",
+									"Respuesta": "C",
+									"Justificacion": "Las herramientas de detección de tendencias/varianzas implican servicios con números de facturas crecientes."
+								}
+							   ,{
+									"Codigo": "A1-91",
+									"Pregunta": "Es responsabilidad del auditor IS reportar hallazgos que pueden tener un impacto material en la efectividad de los controles.",
+									"Respuesta": "C",
+									"Justificacion": "Es responsabilidad del auditor IS reportar hallazgos que pueden tener un impacto material en la efectividad de los controles."
+								}
+							   ,{
+									"Codigo": "A1-92",
+									"Pregunta": "Como parte del esfuerzo para realizar una gestión continua de auditoría, hay casos para introducir un monitoreo automatizado y una auditoría continua.",
+									"Respuesta": "C",
+									"Justificacion": "Como parte del esfuerzo para realizar una gestión continua de auditoría, hay casos para introducir un monitoreo automatizado y una auditoría continua."
+								}
+							   ,{
+									"Codigo": "A1-93",
+									"Pregunta": "El primer paso del análisis de riesgo es identificar los sistemas y procesos que apoyan los objetivos de negocio porque el riesgo para esos procesos impacta el logro de objetivos de negocio.",
+									"Respuesta": "B",
+									"Justificacion": "El primer paso del análisis de riesgo es identificar los sistemas y procesos que apoyan los objetivos de negocio porque el riesgo para esos procesos impacta el logro de objetivos de negocio."
+								}
+							   ,{
+									"Codigo": "A1-94",
+									"Pregunta": "Si los hallazgos no son acordados y confirmados por ambas partes, entonces puede haber un problema durante el cierre de la auditoría final o cuando se discuten los hallazgos con la gerencia.",
+									"Respuesta": "A",
+									"Justificacion": "Si los hallazgos no son acordados y confirmados por ambas partes, entonces puede haber un problema durante el cierre de la auditoría final o cuando se discuten los hallazgos con la gerencia."
+								}
+							   ,{
+									"Codigo": "A1-95",
+									"Pregunta": "La autoevaluación de controles (CSA) se basa en la revisión de áreas de alto riesgo que necesitan atención inmediata o pueden requerir una revisión más profunda después.",
+									"Respuesta": "A",
+									"Justificacion": "La autoevaluación de controles (CSA) se basa en la revisión de áreas de alto riesgo que necesitan atención inmediata o pueden requerir una revisión más profunda después."
+								}
+							   ,{
+									"Codigo": "A1-96",
+									"Pregunta": "Es un enfoque basado en riesgo para auditar y el auditor debe priorizar el riesgo basado en su impacto general.",
+									"Respuesta": "B",
+									"Justificacion": "Es un enfoque basado en riesgo para auditar y el auditor debe priorizar el riesgo basado en su impacto general."
+								}
+							   ,{
+									"Codigo": "A1-97",
+									"Pregunta": "Si un auditor diseña los controles, surge un conflicto de intereses en la neutralidad del auditor.",
+									"Respuesta": "B",
+									"Justificacion": "Si un auditor diseña los controles, surge un conflicto de intereses en la neutralidad del auditor."
+								}
+							   ,{
+									"Codigo": "A1-98",
+									"Pregunta": "Después de que el proceso de negocio es identificado, el auditor IS debe primero identificar los objetivos de control y actividades asociados con el proceso de negocio.",
+									"Respuesta": "D",
+									"Justificacion": "Después de que el proceso de negocio es identificado, el auditor IS debe primero identificar los objetivos de control y actividades asociados con el proceso de negocio."
+								}
+							   ,{
+									"Codigo": "A1-99",
+									"Pregunta": "El efecto de los requisitos estatutarios aplicables debe ser considerado mientras se planifica una auditoría IS - el auditor IS no tiene opciones con respecto a los requisitos estatutarios.",
+									"Respuesta": "A",
+									"Justificacion": "El efecto de los requisitos estatutarios aplicables debe ser considerado mientras se planifica una auditoría IS - el auditor IS no tiene opciones con respecto a los requisitos estatutarios."
+								}
+							   ,{
+									"Codigo": "A1-100",
+									"Pregunta": "En circunstancias en las que la independencia del auditor IS está comprometida y el auditor IS continúa asociado con la auditoría, las circunstancias que rodean la independencia deben ser divulgadas.",
+									"Respuesta": "C",
+									"Justificacion": "En circunstancias en las que la independencia del auditor IS está comprometida y el auditor IS continúa asociado con la auditoría, las circunstancias que rodean la independencia deben ser divulgadas."
+								}
+							   ,{
+									"Codigo": "A1-101",
+									"Pregunta": "Los walk-throughs implican una combinación de investigación e inspección de evidencia con respecto a los controles del proceso de negocio. Esta es la base más efectiva para la evaluación del diseño del control.",
+									"Respuesta": "D",
+									"Justificacion": "Los walk-throughs implican una combinación de investigación e inspección de evidencia con respecto a los controles del proceso de negocio. Esta es la base más efectiva para la evaluación del diseño del control."
+								}
+							   ,{
+									"Codigo": "A1-102",
+									"Pregunta": "Una evaluación de riesgo ayuda a enfocar los procedimientos de auditoría en las áreas de riesgo más altas incluidas en el alcance de la auditoría.",
+									"Respuesta": "B",
+									"Justificacion": "Una evaluación de riesgo ayuda a enfocar los procedimientos de auditoría en las áreas de riesgo más altas incluidas en el alcance de la auditoría."
+								}
+							   ,{
+									"Codigo": "A1-103",
+									"Pregunta": "Sin evidencia adecuada, los hallazgos no tienen fundamento; por lo tanto, esto debe ser verificado antes de comunicar los hallazgos.",
+									"Respuesta": "B",
+									"Justificacion": "Sin evidencia adecuada, los hallazgos no tienen fundamento; por lo tanto, esto debe ser verificado antes de comunicar los hallazgos."
+								}
+							   ,{
+									"Codigo": "A1-104",
+									"Pregunta": "Si el auditor IS ejecuta directamente la extracción de datos, hay mayor seguridad de que los criterios de extracción no interferirán con la integridad requerida.",
+									"Respuesta": "D",
+									"Justificacion": "Si el auditor IS ejecuta directamente la extracción de datos, hay mayor seguridad de que los criterios de extracción no interferirán con la integridad requerida."
+								}
+							   ,{
+									"Codigo": "A1-105",
+									"Pregunta": "El muestreo de atributos se usa para probar el cumplimiento de transacciones con controles - en esta instancia, la existencia de aprobación apropiada.",
+									"Respuesta": "A",
+									"Justificacion": "El muestreo de atributos se usa para probar el cumplimiento de transacciones con controles - en esta instancia, la existencia de aprobación apropiada."
+								}
+							   ,{
+									"Codigo": "A1-106",
+									"Pregunta": "Debido a que los datos son directamente recolectados por el auditor IS, los hallazgos de auditoría pueden ser reportados con énfasis en la confiabilidad de los registros.",
+									"Respuesta": "B",
+									"Justificacion": "Debido a que los datos son directamente recolectados por el auditor IS, los hallazgos de auditoría pueden ser reportados con énfasis en la confiabilidad de los registros."
+								}
+							   ,{
+									"Codigo": "A1-107",
+									"Pregunta": "Una evaluación de riesgo debe ser realizada antes de identificar a los propietarios de información clave para determinar cómo deben asignarse los recursos de auditoría interna.",
+									"Respuesta": "D",
+									"Justificacion": "Una evaluación de riesgo debe ser realizada antes de identificar a los propietarios de información clave para determinar cómo deben asignarse los recursos de auditoría interna."
+								}
+							   ,{
+									"Codigo": "A1-108",
+									"Pregunta": "Las auditorías a menudo involucran gestión de recursos, entregables, programación y fechas límite que son similares a las buenas prácticas de gestión de proyectos.",
+									"Respuesta": "C",
+									"Justificacion": "Las auditorías a menudo involucran gestión de recursos, entregables, programación y fechas límite que son similares a las buenas prácticas de gestión de proyectos."
+								}
+							   ,{
+									"Codigo": "A1-109",
+									"Pregunta": "Las autoevaluaciones de controles (CSAs) requieren que los empleados evalúen la estructura de control de su propia función, ayudando a detectar riesgo más temprano.",
+									"Respuesta": "A",
+									"Justificacion": "Las autoevaluaciones de controles (CSAs) requieren que los empleados evalúen la estructura de control de su propia función, ayudando a detectar riesgo más temprano."
+								}
+							   ,{
+									"Codigo": "A1-110",
+									"Pregunta": "El riesgo inherente es inherentemente alto debido al número de usuarios y áreas de negocio que pueden verse afectadas.",
+									"Respuesta": "C",
+									"Justificacion": "El riesgo inherente es inherentemente alto debido al número de usuarios y áreas de negocio que pueden verse afectadas."
+								}
+							   ,{
+									"Codigo": "A1-111",
+									"Pregunta": "El auditor IS debe realizar pruebas adicionales para asegurar que es un hallazgo. Un auditor puede perder credibilidad rápidamente si después se descubre que el hallazgo no fue justificado.",
+									"Respuesta": "D",
+									"Justificacion": "El auditor IS debe realizar pruebas adicionales para asegurar que es un hallazgo. Un auditor puede perder credibilidad rápidamente si después se descubre que el hallazgo no fue justificado."
+								}
+							   ,{
+									"Codigo": "A1-112",
+									"Pregunta": "El comité de auditoría es un subgrupo del consejo de directores. El departamento de auditoría debe reportar al comité de auditoría.",
+									"Respuesta": "B",
+									"Justificacion": "El comité de auditoría es un subgrupo del consejo de directores. El departamento de auditoría debe reportar al comité de auditoría."
+								}
+							   ,{
+									"Codigo": "A1-113",
+									"Pregunta": "Un walk-through proporciona usualmente una combinación de investigación, observación, inspección de documentación relevante y re-ejecución de controles.",
+									"Respuesta": "C",
+									"Justificacion": "Un walk-through proporciona usualmente una combinación de investigación, observación, inspección de documentación relevante y re-ejecución de controles."
+								}
+							   ,{
+									"Codigo": "A1-114",
+									"Pregunta": "Las pruebas sustantivas obtienen evidencia de auditoría sobre la integridad, exactitud o existencia de actividades o transacciones durante el período de auditoría.",
+									"Respuesta": "A",
+									"Justificacion": "Las pruebas sustantivas obtienen evidencia de auditoría sobre la integridad, exactitud o existencia de actividades o transacciones durante el período de auditoría."
+								}
+							   ,{
+									"Codigo": "A1-115",
+									"Pregunta": "La falta de controles adecuados representa una vulnerabilidad, exponiendo información sensible y datos.",
+									"Respuesta": "B",
+									"Justificacion": "La falta de controles adecuados representa una vulnerabilidad, exponiendo información sensible y datos."
+								}
+							   ,{
+									"Codigo": "A1-116",
+									"Pregunta": "El auditor IS debe reportar la falta de reconciliaciones diarias como una excepción, porque un conteo de inventario físico da seguridad solo en un punto en el tiempo.",
+									"Respuesta": "C",
+									"Justificacion": "El auditor IS debe reportar la falta de reconciliaciones diarias como una excepción, porque un conteo de inventario físico da seguridad solo en un punto en el tiempo."
+								}
+							   ,{
+									"Codigo": "A1-117",
+									"Pregunta": "El rol de aseguramiento de calidad de software debe ser independiente y separado del desarrollo y actividades de desarrollo.",
+									"Respuesta": "D",
+									"Justificacion": "El rol de aseguramiento de calidad de software debe ser independiente y separado del desarrollo y actividades de desarrollo."
+								}
+							   ,{
+									"Codigo": "A1-118",
+									"Pregunta": "Los procedimientos de transferencia bancaria incluyen segregación de controles de deberes. Esto ayuda a prevenir fraude interno.",
+									"Respuesta": "B",
+									"Justificacion": "Los procedimientos de transferencia bancaria incluyen segregación de controles de deberes. Esto ayuda a prevenir fraude interno."
+								}
+							   ,{
+									"Codigo": "A1-119",
+									"Pregunta": "Cuando los controles internos son fuertes, se puede adoptar un coeficiente de confianza más bajo, lo que permitirá el uso de un tamaño de muestra más pequeño.",
+									"Respuesta": "A",
+									"Justificacion": "Cuando los controles internos son fuertes, se puede adoptar un coeficiente de confianza más bajo, lo que permitirá el uso de un tamaño de muestra más pequeño."
+								}
+							   ,{
+									"Codigo": "A1-120",
+									"Pregunta": "Los estándares profesionales de ISACA, el Instituto de Auditores Internos y la Federación Internacional de Contadores requieren supervisión del personal de auditoría.",
+									"Respuesta": "D",
+									"Justificacion": "Los estándares profesionales de ISACA, el Instituto de Auditores Internos y la Federación Internacional de Contadores requieren supervisión del personal de auditoría."
+								}
+							   ,{
+									"Codigo": "A1-121",
+									"Pregunta": "El control dual requiere que dos personas realicen una operación. La técnica de observación ayuda a determinar si dos individuos se involucran en la ejecución de la operación.",
+									"Respuesta": "C",
+									"Justificacion": "El control dual requiere que dos personas realicen una operación. La técnica de observación ayuda a determinar si dos individuos se involucran en la ejecución de la operación."
+								}
+							   ,{
+									"Codigo": "A1-122",
+									"Pregunta": "Debido a que tanto el riesgo inherente como el riesgo de control son altos en este caso, se requieren pruebas adicionales. Las pruebas sustantivas obtienen evidencia de auditoría.",
+									"Respuesta": "B",
+									"Justificacion": "Debido a que tanto el riesgo inherente como el riesgo de control son altos en este caso, se requieren pruebas adicionales. Las pruebas sustantivas obtienen evidencia de auditoría."
+								}
+							   ,{
+									"Codigo": "A1-123",
+									"Pregunta": "El objetivo principal de la reunión de iniciación con un cliente de auditoría IS es ayudar a definir el alcance de la auditoría.",
+									"Respuesta": "A",
+									"Justificacion": "El objetivo principal de la reunión de iniciación con un cliente de auditoría IS es ayudar a definir el alcance de la auditoría."
+								}
+								   ,{
+										"Codigo": "A1-124",
+										"Pregunta": "El propósito primario del estatuto de auditoría IS es establecer el propósito, responsabilidad, autoridad y responsabilidad de la función de auditoría IS. El estatuto otorga autoridad a la función de auditoría en nombre del consejo de directores y partes interesadas de la organización.",
+										"Respuesta": "D",
+										"Justificacion": "El propósito primario del estatuto de auditoría IS es establecer el propósito, responsabilidad, autoridad y responsabilidad de la función de auditoría IS. El estatuto otorga autoridad a la función de auditoría en nombre del consejo de directores y partes interesadas de la organización."
+									}
+								   ,{
+										"Codigo": "A1-125",
+										"Pregunta": "La aplicación de comercio electrónico permite la ejecución de transacciones comerciales. Por lo tanto, es importante entender la naturaleza y criticidad de los procesos de negocio soportados por la aplicación de comercio electrónico para identificar controles específicos a revisar.",
+										"Respuesta": "C",
+										"Justificacion": "La aplicación de comercio electrónico permite la ejecución de transacciones comerciales. Por lo tanto, es importante entender la naturaleza y criticidad de los procesos de negocio soportados por la aplicación de comercio electrónico para identificar controles específicos a revisar."
+									}
+								   ,{
+										"Codigo": "A1-126",
+										"Pregunta": "Discutir la implementación de la segregación de funciones con los gerentes de TI es la mejor forma de determinar cómo se asignan las responsabilidades dentro del departamento.",
+										"Respuesta": "A",
+										"Justificacion": "Discutir la implementación de la segregación de funciones con los gerentes de TI es la mejor forma de determinar cómo se asignan las responsabilidades dentro del departamento."
+									}
+								   ,{
+										"Codigo": "A1-127",
+										"Pregunta": "Hacer que el gerente de sucursal apruebe transacciones de más de cierta cantidad se considera un control preventivo.",
+										"Respuesta": "B",
+										"Justificacion": "Hacer que el gerente de sucursal apruebe transacciones de más de cierta cantidad se considera un control preventivo."
+									}
+								   ,{
+										"Codigo": "A1-128",
+										"Pregunta": "Cualquier debilidad notada durante una revisión de software de aplicación debe ser reportada a la gerencia. Las debilidades identificadas durante una revisión de software de aplicación necesitan ser reportadas a la gerencia.",
+										"Respuesta": "D",
+										"Justificacion": "Cualquier debilidad notada durante una revisión de software de aplicación debe ser reportada a la gerencia. Las debilidades identificadas durante una revisión de software de aplicación necesitan ser reportadas a la gerencia."
+									}
+								   ,{
+										"Codigo": "A1-129",
+										"Pregunta": "Los controles correctivos están diseñados para corregir errores, omisiones y usos no autorizados e intrusiones, cuando han sido detectados. Esto proporciona un mecanismo para que cuando ocurran eventos maliciosos puedan ser corregidos.",
+										"Respuesta": "B",
+										"Justificacion": "Los controles correctivos están diseñados para corregir errores, omisiones y usos no autorizados e intrusiones, cuando han sido detectados. Esto proporciona un mecanismo para que cuando ocurran eventos maliciosos puedan ser corregidos."
+									}
+								   ,{
+										"Codigo": "A1-130",
+										"Pregunta": "Reducir el alcance y enfocarse en auditar áreas de alto riesgo es el mejor curso de acción.",
+										"Respuesta": "C",
+										"Justificacion": "Reducir el alcance y enfocarse en auditar áreas de alto riesgo es el mejor curso de acción."
+									}
+								   ,{
+										"Codigo": "A1-131",
+										"Pregunta": "Para asegurar la efectividad de los controles, es más efectivo realizar reprocesamiento. Cuando el mismo resultado se obtiene después de ser realizado por una persona independiente, esto proporciona la mayor seguridad.",
+										"Respuesta": "A",
+										"Justificacion": "Para asegurar la efectividad de los controles, es más efectivo realizar reprocesamiento. Cuando el mismo resultado se obtiene después de ser realizado por una persona independiente, esto proporciona la mayor seguridad."
+									}
+								   ,{
+										"Codigo": "A1-132",
+										"Pregunta": "Desarrollar un plan de auditoría basado en riesgo debe comenzar con la identificación de procesos de negocio clave, que luego determinan e identifican el riesgo que necesita ser abordado.",
+										"Respuesta": "D",
+										"Justificacion": "Desarrollar un plan de auditoría basado en riesgo debe comenzar con la identificación de procesos de negocio clave, que luego determinan e identifican el riesgo que necesita ser abordado."
+									}
+								   ,{
+										"Codigo": "A1-133",
+										"Pregunta": "Durante una auditoría, si hay asuntos materiales que son de preocupación, necesitan ser reportados a la gerencia en el reporte de auditoría.",
+										"Respuesta": "A",
+										"Justificacion": "Durante una auditoría, si hay asuntos materiales que son de preocupación, necesitan ser reportados a la gerencia en el reporte de auditoría."
+									}
+								   ,{
+										"Codigo": "A1-134",
+										"Pregunta": "Los informes IS deben estar respaldados por evidencia de auditoría suficiente y apropiada para que demuestren la aplicación de las normas mínimas de desempeño, y los hallazgos y recomendaciones puedan ser validados, si se requiere.",
+										"Respuesta": "B",
+										"Justificacion": "Los informes IS deben estar respaldados por evidencia de auditoría suficiente y apropiada para que demuestren la aplicación de las normas mínimas de desempeño, y los hallazgos y recomendaciones puedan ser validados, si se requiere."
+									}
+								   ,{
+										"Codigo": "A1-135",
+										"Pregunta": "La identificación y clasificación de los activos de información (por ejemplo, confidencialidad de datos, sensibilidad, ubicaciones de activos) establecerá el tono o alcance de cómo evaluar el riesgo en relación con el valor organizacional del activo.",
+										"Respuesta": "C",
+										"Justificacion": "La identificación y clasificación de los activos de información (por ejemplo, confidencialidad de datos, sensibilidad, ubicaciones de activos) establecerá el tono o alcance de cómo evaluar el riesgo en relación con el valor organizacional del activo."
+									}
+								   ,{
+										"Codigo": "A1-136",
+										"Pregunta": "Los controles preventivos se usan para reducir la probabilidad de un evento adverso. Un sistema de entrada con tarjeta previene la entrada no autorizada a la instalación.",
+										"Respuesta": "C",
+										"Justificacion": "Los controles preventivos se usan para reducir la probabilidad de un evento adverso. Un sistema de entrada con tarjeta previene la entrada no autorizada a la instalación."
+									}
+								   ,{
+										"Codigo": "A1-137",
+										"Pregunta": "El enfoque de autoevaluación de controles (CSA) enfatiza la gestión y responsabilidad para desarrollar y monitorear los controles de los procesos de negocio de una organización. Los atributos de CSA incluyen participación amplia de partes interesadas.",
+										"Respuesta": "A",
+										"Justificacion": "El enfoque de autoevaluación de controles (CSA) enfatiza la gestión y responsabilidad para desarrollar y monitorear los controles de los procesos de negocio de una organización. Los atributos de CSA incluyen participación amplia de partes interesadas."
+									}
+								   ,{
+										"Codigo": "A1-138",
+										"Pregunta": "La preocupación principal es establecer un DRP viable que refleje los volúmenes de procesamiento actuales para proteger a la organización de cualquier incidente disruptivo.",
+										"Respuesta": "D",
+										"Justificacion": "La preocupación principal es establecer un DRP viable que refleje los volúmenes de procesamiento actuales para proteger a la organización de cualquier incidente disruptivo."
+									}
+								   ,{
+										"Codigo": "A1-139",
+										"Pregunta": "Un auditor IS debe hacer que la gerencia esté consciente de que algunos sistemas están omitidos del plan de recuperación de desastres (DRP). Un auditor IS debe continuar la auditoría e incluir una evaluación del impacto de no incluir todos los sistemas en el DRP.",
+										"Respuesta": "A",
+										"Justificacion": "Un auditor IS debe hacer que la gerencia esté consciente de que algunos sistemas están omitidos del plan de recuperación de desastres (DRP). Un auditor IS debe continuar la auditoría e incluir una evaluación del impacto de no incluir todos los sistemas en el DRP."
+									}
+							]
