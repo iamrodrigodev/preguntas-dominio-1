@@ -94,15 +94,11 @@ export default function QuizApp() {
     );
   }
 
-  if (preguntasFiltradas.length === 0) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-600 via-purple-600 to-purple-800">
-        <div className="text-white text-xl">No hay preguntas que coincidan con la búsqueda</div>
-      </div>
-    );
-  }
 
-  const preguntaActual = preguntasFiltradas[slideFiltrado];
+  // Si no hay resultados, mostrar el card actual sin filtrar
+  const mostrarCard = preguntasFiltradas.length === 0 ? preguntas[slideFiltrado] : preguntasFiltradas[slideFiltrado];
+
+  const preguntaActual = mostrarCard;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-purple-800 flex flex-col items-center justify-center p-5">
