@@ -832,5 +832,77 @@
     "Pregunta": "Un auditor IS debe hacer que la gerencia esté consciente de que algunos sistemas están omitidos del plan de recuperación de desastres (DRP). Un auditor IS debe continuar la auditoría e incluir una evaluación del impacto de no incluir todos los sistemas en el DRP.",
     "Respuesta": "A",
     "Justificacion": "Un auditor IS debe hacer que la gerencia esté consciente de que algunos sistemas están omitidos del plan de recuperación de desastres (DRP). Un auditor IS debe continuar la auditoría e incluir una evaluación del impacto de no incluir todos los sistemas en el DRP."
+  },
+  {
+    "Codigo": "A1-140",
+    "Pregunta": "¿Cuál de las siguientes opciones es MÁS efectiva para monitorear transacciones que excedan los umbrales predeterminados?",
+    "Respuesta": "A",
+    "Justificacion": "El software de auditoría generalizado (GAS) es una herramienta de análisis de datos que puede usarse para filtrar grandes cantidades de datos."
+  },
+  {
+    "Codigo": "A1-141",
+    "Pregunta": "¿Cuál de las siguientes opciones es MÁS importante para asegurar que se mantengan controles de aplicación efectivos?",
+    "Respuesta": "C",
+    "Justificacion": "CSA es la revisión de objetivos de negocio y controles internos en un proceso formal y documentado colaborativo. Incluye probar el diseño de controles de aplicación automatizados."
+  },
+  {
+    "Codigo": "A1-142",
+    "Pregunta": "El éxito de una autoevaluación de controles depende altamente de:",
+    "Respuesta": "A",
+    "Justificacion": "El objetivo principal de un programa de autoevaluación de controles (CSA) es aprovechar la función de auditoría interna desplazando algunas de las responsabilidades de monitoreo de controles al área funcional de gerentes de línea. El éxito de un programa CSA depende del grado en que los gerentes de línea asuman responsabilidad por los controles. Esto permite que los gerentes de línea dediquen tiempo a controles proactivamente."
+  },
+  {
+    "Codigo": "A1-143",
+    "Pregunta": "¿Cuál de las siguientes se evalúa como un control preventivo por un auditor IS que realiza una auditoría?",
+    "Respuesta": "C",
+    "Justificacion": "Las búsquedas en tablas son controles preventivos; los datos de entrada se verifican contra tablas predefinidas, lo que previene que se ingresen datos no definidos."
+  },
+  {
+    "Codigo": "A1-144",
+    "Pregunta": "¿Cuál de las siguientes es un objetivo PRINCIPAL de incorporar un módulo de auditoría mientras se desarrollan sistemas de aplicación en línea?",
+    "Respuesta": "A",
+    "Justificacion": "Incorporar un módulo para auditoría continua dentro de un procesamiento de aplicaciones que procesa un gran número de transacciones proporciona evidencia oportuna de auditoría durante el procesamiento y es el objetivo primario. El enfoque de auditoría continua permite al auditor IS monitorear la confiabilidad del sistema de forma continua y recopilar evidencia de auditoría selectiva a través del computador."
+  },
+  {
+    "Codigo": "A1-145",
+    "Pregunta": "Un departamento de auditoría IS considera implementar técnicas de auditoría continua para una empresa minorista multinacional que requiere alta disponibilidad de sus sistemas clave. Un beneficio PRINCIPAL de la auditoría continua es que:",
+    "Respuesta": "D",
+    "Justificacion": "Las técnicas de auditoría continua ayudan a la función de auditoría a reducir el uso de recursos de auditoría a través de la recopilación eficiente de evidencia. Este enfoque asiste al auditor IS en la identificación de fraude de manera oportuna y permite a los auditores enfocarse en datos relevantes."
+  },
+  {
+    "Codigo": "A1-146",
+    "Pregunta": "Un auditor IS quiere determinar la efectividad de la gestión del acceso de usuarios a una sala de servidores. ¿Cuál de las siguientes es la MEJOR evidencia de efectividad?",
+    "Respuesta": "A",
+    "Justificacion": "La observación del proceso para restablecer el acceso de seguridad de un empleado a la sala de servidores y el registro subsecuente de este evento proporcionan la mejor evidencia de la adecuación del control de seguridad física."
+  },
+  {
+    "Codigo": "A1-147",
+    "Pregunta": "Como parte de la planificación de auditoría, un auditor IS está diseñando varias pruebas de validación de datos para detectar efectivamente errores de transposición y transcripción. ¿Cuál de las siguientes ayudará MEJOR a detectar estos errores?",
+    "Respuesta": "D",
+    "Justificacion": "Un dígito de verificación es un valor numérico que ha sido calculado matemáticamente y se agrega a los datos para asegurar que los datos originales no hayan sido alterados o que haya ocurrido un error incorrecto de entrada de datos. El control de dígito de verificación es efectivo para detectar errores de transposición y transcripción."
+  },
+  {
+    "Codigo": "A1-148",
+    "Pregunta": "El propósito PRINCIPAL del plan anual de auditoría IS es:",
+    "Respuesta": "A",
+    "Justificacion": "Porque las asignaciones de auditoría IS necesitan realizarse con tiempo y recursos humanos limitados, las auditorías se programan y priorizan según lo determine la gestión de auditoría IS."
+  },
+  {
+    "Codigo": "A1-149",
+    "Pregunta": "¿Cuál de las siguientes se esperaría que apruebe la carta de auditoría?",
+    "Respuesta": "D",
+    "Justificacion": "Una de las funciones principales del comité de auditoría es crear y aprobar la carta de auditoría."
+  },
+  {
+    "Codigo": "A1-150",
+    "Pregunta": "¿Cuál de las siguientes es el propósito PRINCIPAL de una auditoría basada en riesgos?",
+    "Respuesta": "C",
+    "Justificacion": "El riesgo material se audita de acuerdo con la clasificación de riesgo, permitiendo así que el equipo de auditoría se concentre en áreas de alto riesgo primero."
+  },
+  {
+    "Codigo": "A1-151",
+    "Pregunta": "Un auditee no está de acuerdo con un hallazgo de auditoría. ¿Cuál de las siguientes es el MEJOR curso de acción para que tome el auditor IT?",
+    "Respuesta": "A",
+    "Justificacion": "Discutir el desacuerdo con el gerente del auditee es el mejor curso de acción porque otras acciones pueden debilitar las relaciones con el auditee y auditor."
   }
 ]
